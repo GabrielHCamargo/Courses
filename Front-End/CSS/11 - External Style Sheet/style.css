@@ -1,0 +1,10 @@
+body {
+    background-color: lightcyan;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    padding: .5em;
+    background-color: #282A35;
+    color: white;
+}

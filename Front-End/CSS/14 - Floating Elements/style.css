@@ -1,0 +1,39 @@
+body {
+    background-color: #f2f2f2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    background-color: #282A35;
+    color: white;
+    padding: 10px 25px;
+}
+
+h2 {
+    margin: 0px;
+}
+
+#main {
+    width: 95%;
+    padding: 5px;
+}
+
+.box-news {
+    background-color: #d1d1d1;
+    width: 250px;
+    padding: 20px;
+    margin: 10px;
+    float: left;
+}
+
+.box-photos {
+    background-color: white;
+    width: 270px;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}

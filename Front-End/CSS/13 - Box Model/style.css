@@ -1,0 +1,18 @@
+h1, p {
+    margin: 0px;
+}
+
+.news {
+    border: 2px solid gray;
+    background-color: blueviolet;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+.box {
+    border: 2px solid red;
+    width: 150px;
+    padding: 20px;
+    margin: 20px;
+}

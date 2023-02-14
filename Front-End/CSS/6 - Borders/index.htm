@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Borders</title>
+    <style type="text/css">
+        div {
+            width: 25%;
+        }
+
+        p {
+            margin-left: 15px;
+        }
+
+        #border {
+            /* border: 5px dotted red; */
+            border-width: 15px 5px;
+            border-style: solid dotted dashed groove;
+            border-color: red green yellow blue;
+        }
+
+        #border-simple {
+            border: 1px solid black;
+        }
+
+        #border-bottom {
+            border-width: 1px;
+            border-style: none none solid none;
+            border-color: red;
+        }
+
+        #border-rounded {
+            border: 1px solid #CCCCCC;
+            border-radius: 15px;
+        }
+
+        #border-left {
+            height: 50px;
+            position: relative;
+            background: #ddffff;
+            /* border-left: 6px solid #2196f3; */
+            border-width: 5px;
+            border-style: hidden hidden hidden solid;
+            border-color: #2196f3;
+        }
+
+        #border-left p {
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <div id="border">
+        Border <br>
+        Border <br>
+        Border <br>
+    </div>
+
+    <br>
+    
+    <div id="border-simple">
+        <p>
+            I have borders on all sides.
+        </p>
+    </div>
+
+    <br>
+
+    <div id="border-bottom">
+        <p>
+            I have a red bottom border.
+        </p>
+    </div>
+
+    <br>
+
+    <div id="border-rounded">
+        <p>
+            I have rounded borders.
+        </p>
+    </div>
+
+    <br>
+
+    <div id="border-left">
+        <p>
+            I have a blue left border.
+        </p>
+    </div>
+</body>
+</html>
