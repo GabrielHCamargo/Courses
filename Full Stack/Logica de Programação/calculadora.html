@@ -1,0 +1,27 @@
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script>
+    function soma(a, b) {
+        return a + b
+    }
+
+    function subtracao(a, b) {
+        return a - b
+    }
+    
+    var n1 = Number(prompt("Número 1"))
+    var op = prompt("Operação")
+    var n2 = Number(prompt("Número 2"))
+
+    if (op == "+") {
+        var resultado = soma(n1, n2)
+    } else if (op == "-") {
+        var resultado = subtracao(n1, n2)
+    } else {
+        alert("Operação não encontrada")
+    }
+
+    alert(resultado)
+</script>
+
+</html>
